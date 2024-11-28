@@ -110,6 +110,8 @@ body {
     }
 
     .bg-brown {
+        padding-bottom: 30px;
+        height: auto;
         align-items: start;
         padding-top: 20px;
     }
