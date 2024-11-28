@@ -145,7 +145,7 @@ padding-top:35px;
 @media (max-width: 767px) {
     .about_div{
         padding: 20px;
-        /* order: -1;  */
+        order: -1;
     }
     .about_image{
         height: 270px;
