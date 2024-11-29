@@ -12,41 +12,47 @@
     <script src="js/index.js"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg header_bg sticky-top">
+    <nav class="navbar navbar-expand-lg header_bg1 sticky-top">
         <div class="container">
           <a class="navbar-brand" href="#" >
             <img src="images/logo.png" height="auto" width="70px" alt="logo">
 
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon hamburger "></span>
           </button>
-          <div class="collapse navbar-collapse margin-class " id="navbarSupportedContent">
+          <div class="offcanvas offcanvas-start property_offcanvas margin-class" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+            <div class="offcanvas-header">
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body ">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0 nav-underline">
               <li class="nav-item" >
-                <a class="nav-link text-white active " aria-current="page" href="#">Home</a>
+                <a class="nav-link active " aria-current="page" href="#">Home</a>
               </li>
               <li class="nav-item ">
-                <a class="nav-link text-white" href="#">About Me</a>
+                <a class="nav-link " href="#">About Me</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Projects
                 </a>
                 <ul class="dropdown-menu header_bg">
-                  <li><a class="dropdown-item text-white" href="#">Wordpress</a></li>
-                  <li><a class="dropdown-item text-white" href="#">Coded UI/UX</a></li>
-                  <li><a class="dropdown-item text-white" href="#"> Python </a></li>
+                  <li><a class="dropdown-item" href="#">Wordpress</a></li>
+                  <hr>
+                  <li><a class="dropdown-item" href="#">Coded UI/UX</a></li>
+                  <hr>
+                  <li><a class="dropdown-item" href="#"> Python </a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#"> Certificates </a>
+                <a class="nav-link" href="#"> Certificates </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#"> Testimonals</a>
+                <a class="nav-link" href="#"> Testimonals</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#"> Resume</a>
+                <a class="nav-link" href="#"> Resume</a>
               </li>
             </ul>
             <button class="btn nav-button" type="button"> <i class="bi bi-telephone-fill pe-3"></i>+91-93729-56611</button>
@@ -80,7 +86,7 @@
     <div class="container-fluid about_bg">
       <div class="container pt-5 pb-5">
         <div class="row">
-          <div class="col-lg-4 pt-4">
+          <div class="col-lg-4 pt-4 " style="text-align: center;">
           <img class="img-fluid about_image" src="images/capricorn.png" alt="Riddhi_SunSign">
           </div>
 
@@ -111,100 +117,70 @@
         <h1 class="home_h1_services">Services I can Help you with?</h1>
         <hr class="text-white w-50 pb-4 pt-1 mx-auto">
 
-        <div class="row">
-          <div class="col-lg-3 div_of_cards">
-            <div class="card p-3" style="width: 20rem; margin-bottom: 20px;">
-              <div class="card-body">
-                <h5 class="card-title">Custom UI/UX Design</h5>
-                <p class="card-text">Create visually appealing and user-friendly interfaces.</p>
-                <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
+
+        <div class="container text-center">
+          <div class="row">
+            <div class="col div_of_cards">
+              <div class="card p-3" style="width: 25rem; margin-bottom: 20px;">
+                <div class="card-body">
+                  <h5 class="card-title"> <i class="bi bi-pencil-square"></i> Custom UI/UX Design</h5>
+                  <p class="card-text">Create visually appealing and user-friendly interfaces.</p>
+                  <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
+                </div>
               </div>
             </div>
-          </div>
-
-
-          <div class="col-lg-3 div_of_cards">
-            <div class="card p-3" style="width: 20rem; margin-bottom: 20px;">
-              <div class="card-body">
-                <h5 class="card-title">Website Redesigns</h5>
-                <p class="card-text">Update outdated designs to modern aesthetics.</p>
-                <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
+            <div class="col div_of_cards">
+              <div class="card p-3" style="width: 25rem; margin-bottom: 20px;">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="bi bi-award"></i> Website Redesigns</h5>
+                  <p class="card-text">Update outdated designs to modern aesthetics.</p>
+                  <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
+                </div>
               </div>
             </div>
-          </div>
-
-          <div class="col-lg-3 div_of_cards">
-            <div class="card p-3" style="width: 20rem; margin-bottom: 20px; ">
-              <div class="card-body">
-                <h5 class="card-title">Front-End Developers</h5>
-                <p class="card-text">Build responsive and interactive websites.</p>
-                <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
+            <div class="col div_of_cards">
+              <div class="card p-3" style="width: 25rem; margin-bottom: 20px; ">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="bi bi-filetype-html"></i> Front-End Developers</h5>
+                  <p class="card-text">Build responsive and interactive websites.</p>
+                  <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
+                </div>
               </div>
             </div>
-          </div>
 
-
-          <div class="col-lg-3 div_of_cards">
-            <div class="card p-3" style="width: 20rem; margin-bottom: 20px;">
-              <div class="card-body">
-                <h5 class="card-title"> WordPress Theme</h5>
-                <p class="card-text">Build or modify themes to suit client needs.</p>
-                <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
+            <div class="col div_of_cards">
+              <div class="card p-3" style="width: 25rem; margin-bottom: 20px; ">
+                <div class="card-body">
+                  <h5 class="card-title"> <i class="bi bi-plugin"></i> WordPress Theme</h5>
+                  <p class="card-text">Build or modify themes to suit client needs.</p>
+                  <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-lg-3 div_of_cards">
-            <div class="card p-3" style="width: 20rem; margin-bottom: 20px;">
-              <div class="card-body">
-                <h5 class="card-title">Freelance Projects</h5>
-                <p class="card-text">Create visually appealing and user-friendly interfaces.</p>
-                <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
+            <div class="col div_of_cards">
+              <div class="card p-3" style="width: 25rem; margin-bottom: 20px; ">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="bi bi-person-workspace"></i> Freelance Projects</h5>
+                  <p class="card-text">Create visually appealing and user-friendly interfaces.</p>
+                  <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
+                </div>
               </div>
             </div>
-          </div>
 
-
-          <div class="col-lg-3 div_of_cards">
-            <div class="card p-3" style="width: 20rem; margin-bottom: 20px;">
-              <div class="card-body">
-                <h5 class="card-title">Website Migration</h5>
-                <p class="card-text">Migrate websites to different hosting providers or platform.</p>
-                <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
+            <div class="col div_of_cards">
+              <div class="card p-3" style="width: 25rem; margin-bottom: 20px; ">
+                <div class="card-body">
+                  <h5 class="card-title"><i class="bi bi-arrow-repeat"></i> Website Migration</h5>
+                  <p class="card-text">Migrate websites to different hosting providers or platform.</p>
+                  <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
+                </div>
               </div>
             </div>
+            
           </div>
-
-          <div class="col-lg-3 div_of_cards">
-            <div class="card p-3" style="width: 20rem; margin-bottom: 20px;">
-              <div class="card-body">
-                <h5 class="card-title">Multilingual Setup</h5>
-                <p class="card-text">Multilingual sites for clients using plugins.</p>
-                <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-          <div class="col-lg-3 div_of_cards">
-            <div class="card p-3" style="width: 20rem; margin-bottom: 20px;">
-              <div class="card-body">
-                <h5 class="card-title">Content Migration</h5>
-                <p class="card-text">Help clients migrate content from different platforms. </p>
-                <a href="#" class="btn services-button border border-2 border-black">Show more <i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-
-
-
         </div>
       </div>
-    </div>
-    
-
-
-
-    </body>
+   </div>
+</body>
 </html>
