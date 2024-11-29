@@ -234,6 +234,12 @@ box-shadow: 5px 5px 0 -2px white;
     text-align: left;
 }
 
+.icons{
+    font-size: 30px; 
+    border-color: black !important; 
+    border-radius:10%;
+}
+
 
 
 @media (max-width: 770px) {
@@ -243,5 +249,9 @@ box-shadow: 5px 5px 0 -2px white;
 
     .bg_services{
         height: auto;
+    }
+
+    .skill-heading{
+        font-size: 14px !important;
     }
 }
