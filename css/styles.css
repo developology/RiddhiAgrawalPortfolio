@@ -238,7 +238,7 @@ box-shadow: 5px 5px 0 -2px white;
 
 @media (max-width: 770px) {
     .home_h1_services{
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .bg_services{
