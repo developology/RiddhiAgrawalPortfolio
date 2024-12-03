@@ -36,13 +36,19 @@ body {
    background-color:  #4a342c;
 }
 
-.nav-link, .navbar-nav .nav-link.active{
-    color: white;
+.nav-link, .navbar-nav .nav-link.active {
+    color: white; 
+    transition: color 0.3s ease; 
 }
-.nav-button:hover{
-    background-color: white;
-    color: black;
+
+.nav-link:hover {
+    color: #fff2ed !important; 
 }
+
+.nav-link:active {
+    color: white !important; 
+}
+
 .bg-brown {
     height: 100vh;
     display: flex;
@@ -360,3 +366,5 @@ main#carousel {
     --position: 5;
   }
   
+
+/*Footer*/
